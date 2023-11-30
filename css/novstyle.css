@@ -388,3 +388,9 @@ body {
   text-decoration: underline;
   color: blue;
 }
+
+.icon-pesan button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
