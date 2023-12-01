@@ -1,3 +1,6 @@
+:root {
+  --text-sub: #757474;
+}
 nav {
   background-color: white;
   max-height: 55px;
@@ -224,23 +227,23 @@ body {
   margin-left: -30px;
 }
 
-.head-third-text {
+.text-head {
   font-size: 16px;
   font-weight: 550;
   color: rgb(70, 70, 70);
 }
 
-.text-desk-acc {
-  font-size: 14px;
+.text-medium {
+  font-size: 14px !important;
+  color: black;
 }
-.text-desk-accs {
-  font-size: 12.5px;
-
-  color: #757474;
+.text-small {
+  font-size: 12.5px !important;
+  color: var(--text-sub);
 }
-.text-desk-acc2 {
+.text-smaller {
   font-size: 11.5px;
-  color: #757474;
+  color: var(--text-sub);
 }
 
 .see-who-hiring {
@@ -287,13 +290,13 @@ body {
   width: 750px;
 }
 
-.text-left-network {
+.text-large {
   font-size: 16px;
-  color: #757474;
+  color: var(--text-sub);
 }
 
 .text-network {
-  color: #757474;
+  color: var(--text-sub);
 }
 
 .btn-premium {
@@ -312,7 +315,7 @@ body {
   border-radius: 14px !important;
 }
 .area1 {
-  background-color: #757474;
+  background-color: var(--text-sub);
   border-top-left-radius: 14px !important;
   border-top-right-radius: 14px !important;
   padding-top: 10px !important;
