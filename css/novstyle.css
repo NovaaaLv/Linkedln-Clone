@@ -4,6 +4,10 @@
   --text-sub: #757474;
   --bg-input: #edf3f8;
 }
+
+.color-text-desk {
+  color: var(--text-sub);
+}
 nav {
   background-color: white;
   max-height: 55px;
@@ -454,4 +458,11 @@ body {
 
 .gap-10 {
   gap: 5rem;
+}
+
+.container-middle-sect1 {
+  width: 450px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
