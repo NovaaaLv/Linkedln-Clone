@@ -24,11 +24,11 @@ body {
   display: flex;
   flex-direction: row;
 }
-.bungkus {
+/* .bungkus {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+} */
 
 .inp-nav:focus {
   outline: none;
@@ -465,4 +465,45 @@ body {
   background-color: white;
   display: flex;
   justify-content: space-between;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.con-date:before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background-color: #5f5f5f;
+  top: 13px;
+  right: 40px;
+  opacity: 0.4;
+}
+
+.con-date:after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background-color: #5f5f5f;
+  top: 13px;
+  left: 40px;
+  opacity: 0.4;
+}
+
+.message-area {
+  background-color: #ede4ed;
+  outline: none;
+  border-radius: 10px;
+  border: transparent;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.message-area::placeholder {
+  font-size: 14px;
 }
