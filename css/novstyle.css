@@ -467,12 +467,6 @@ body {
   justify-content: space-between;
 }
 
-section {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .con-date:before {
   content: "";
   position: absolute;
@@ -506,4 +500,17 @@ section {
 
 .message-area::placeholder {
   font-size: 14px;
+}
+
+.btn-notify button {
+  background-color: transparent;
+  padding: 0px 10px;
+  border-radius: 20px;
+  border: 1px solid #5f5f5f;
+  font-weight: 600;
+}
+
+.btn-notify button:focus {
+  background-color: rgb(74, 160, 74);
+  color: white;
 }
